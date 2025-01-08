@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "app-logistics-dashboard",
+      "roles": [
+        1
+      ]
+    },
+    {
+      "menuHeader": "Member Management"
+    },
+    {
+      "url": "app/member",
+      "name": "Member Mangement",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-member",
+      "roles": [
+        1
+      ]
+    },
+    {
+      "url": "app/transaction",
+      "name": "Transaction",
+      "icon": "menu-icon fa-solid fa-money-bill",
+      "slug": "app-transaction",
+      "roles": [
+        1
+      ]
+    }
+  ]
+}

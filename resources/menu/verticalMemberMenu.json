@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "name": "Dashboard",
+            "url": "/member/dashboard",
+            "icon": "menu-icon tf-icons ti ti-smart-home",
+            "slug": "dashboard-member",
+            "roles": [
+                2
+            ]
+        },
+        {
+            "menuHeader": "Transaction Management"
+        },
+        {
+            "url": "/member/transaction",
+            "name": "Transaction",
+            "icon": "menu-icon fa-solid fa-money-bill",
+            "slug": "member-transaction",
+            "roles": [
+                2
+            ]
+        },
+        {
+            "url": "/member/payment",
+            "name": "Payment Tracking",
+            "icon": "menu-icon fas fa-coins",
+            "slug": "member-payment",
+            "roles": [
+                2
+            ]
+        }
+    ]
+}
